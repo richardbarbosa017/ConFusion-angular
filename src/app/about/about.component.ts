@@ -18,4 +18,5 @@ export class AboutComponent implements OnInit {
       .subscribe(leaders => this.leaders = leaders);
   }
 
+  
 }
