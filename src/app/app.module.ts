@@ -9,6 +9,7 @@ import { MatToolbarModule } from '@angular/material/toolbar';
 import { FlexLayoutModule } from '@angular/flex-layout';
 import {MatDialogModule} from '@angular/material/dialog';
 import { AppComponent } from './app.component';
+import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
 
 import 'hammerjs';
 import { MenuComponent } from './menu/menu.component';
@@ -62,7 +63,8 @@ import { FormsModule } from '@angular/forms';
     FormsModule,
     MatSelectModule,
     MatSlideToggleModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    MatProgressSpinnerModule
     
   ],
   providers: [
