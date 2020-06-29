@@ -35,7 +35,7 @@ import { MatInputModule } from '@angular/material/input';
 import { MatCheckboxModule } from '@angular/material/checkbox';
 import { FormsModule } from '@angular/forms';
 import {MatSliderModule} from '@angular/material/slider';
-
+import{ ProcessHTTPMsgService } from './services/process-httpmsg.service';
 @NgModule({
   declarations: [
     AppComponent,
@@ -75,6 +75,7 @@ import {MatSliderModule} from '@angular/material/slider';
     DishService,
     PromotionService,
     LeaderService,
+    ProcessHTTPMsgService,
     {provide: 'BaseURL', useValue: baseURL}
   ],
   entryComponents:[
